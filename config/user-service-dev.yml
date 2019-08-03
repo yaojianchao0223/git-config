@@ -19,4 +19,9 @@ spring:
     host: 192.168.21.133
     port: 5672
     username: admin
-    password: admin     
+    password: admin
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
